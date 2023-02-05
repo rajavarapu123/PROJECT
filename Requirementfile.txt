@@ -1,9 +1,7 @@
 Pandas
 numpay
 matplotlib
-seaborn
 statmodels
 sklearn
-tensorflow
 streamlit
 pickle
