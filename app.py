@@ -7,7 +7,6 @@ Created on Sat Feb  4 10:47:30 2023
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from datetime import datetime
 import seaborn as sns
 from statsmodels.tsa.seasonal import seasonal_decompose
@@ -21,6 +20,7 @@ import statsmodels.api as sm
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM
+import matplotlib.pyplot as plt
 import tensorflow as tf
 import streamlit as st
 from pickle import dump
@@ -36,7 +36,7 @@ datetime = pd.date_range('2020-01-01', periods=periods,freq='B')
 date_df = pd.DataFrame(datetime,columns=['Date'])
 
 
-model_sarima_final = sm.tsa.SARIMAX(data_close.Close,order=(2,1,0),seasonal_order=(1,1,0,63))
+model_sarima_final = sm.tsa.SARIMAX(data_close.Close,order=(0,1,2),seasonal_order=(1,1,0,57))
 sarima_fit_final = model_sarima_final.fit()
 forecast = sarima_fit_final.predict(len(data_close),len(data_close)+periods-1)
 forecast_df = pd.DataFrame(forecast)
