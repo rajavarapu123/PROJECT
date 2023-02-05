@@ -8,20 +8,8 @@ Created on Sat Feb  4 10:47:30 2023
 import pandas as pd
 import numpy as np
 from datetime import datetime
-import seaborn as sns
-from statsmodels.tsa.seasonal import seasonal_decompose
-from pylab import rcParams
-from statsmodels.tsa.stattools import adfuller
-import statsmodels.graphics.tsaplots as tsa_plots
-from statsmodels.tsa.arima.model import ARIMA
-from sklearn.metrics import mean_squared_error,mean_absolute_percentage_error,mean_absolute_error
-from math import sqrt
 import statsmodels.api as sm
-from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, LSTM
 import matplotlib.pyplot as plt
-import tensorflow as tf
 import streamlit as st
 from pickle import dump
 from pickle import load
