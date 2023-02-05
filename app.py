@@ -7,7 +7,7 @@ Created on Sat Feb  4 10:47:30 2023
 
 import pandas as pd
 import numpy as np
-import matplotlib
+pip install matplotlib
 import matplotlib.pyplot as plt
 from datetime import datetime
 import seaborn as sns
