@@ -5,8 +5,6 @@ Created on Sat Feb  4 10:47:30 2023
 @author: Anil Kumar
 """
 
-pip install matplotlib
-pip install statsmodels
 import pandas as pd
 import numpy as np
 from datetime import datetime
