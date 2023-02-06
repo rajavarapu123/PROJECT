@@ -1,13 +1,16 @@
-Apple Sales Forecast
+# Sales forecasting app
+Apple Sales forecasting project
 
 built in Streamlit https://docs.streamlit.io/
 
-Installation
+## Installation
 Install libraries necessary for the project
-
+```
 pip install -r Requirementfile.txt
+```
 
-Run
-Run this command to start the app.
-
+## Run
+Run this command to start the app. 
+```bash
 streamlit run app.py
+```
