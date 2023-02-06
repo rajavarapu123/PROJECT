@@ -1,7 +1,7 @@
-Pandas
-numpay
+pandas
+numpy
+datetime
+statsmodels
 matplotlib
-statmodels
-sklearn
 streamlit
 pickle
