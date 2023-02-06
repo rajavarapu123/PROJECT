@@ -1,4 +1,4 @@
-# Sales forecasting app
+# PROJECT
 Apple Sales forecasting project
 
 built in Streamlit https://docs.streamlit.io/
