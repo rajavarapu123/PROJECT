@@ -4,4 +4,3 @@ datetime
 statsmodels
 matplotlib
 streamlit
-pickle
