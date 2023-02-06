@@ -5,7 +5,7 @@ built in Streamlit https://docs.streamlit.io/
 Installation
 Install libraries necessary for the project
 
-pip install -r requirements.txt
+pip install -r Requirementfile.txt
 
 Run
 Run this command to start the app.
