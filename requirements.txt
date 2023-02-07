@@ -1,6 +1,6 @@
-streamlit
 pandas
 numpy
 datetime
 statsmodels
 matplotlib
+streamlit
