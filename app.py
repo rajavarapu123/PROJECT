@@ -5,12 +5,12 @@ Created on Sat Feb  4 10:47:30 2023
 @author: Anil Kumar
 """
 
+import streamlit as st
 import pandas as pd
 import numpy as np
 from datetime import datetime
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
-import streamlit as st
 from pickle import dump
 from pickle import load
 
